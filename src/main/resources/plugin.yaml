@@ -3,20 +3,19 @@
 apiVersion: plugin.halo.run/v1alpha1
 kind: Plugin
 metadata:
-  # The name defines how the plugin is invoked, A unique name
-  name: starter
+  name: easy-article-pic
 spec:
   enabled: true
   requires: ">=2.20.0"
   author:
-    name: Halo
-    website: https://github.com/halo-dev
+    name: Astorm
+    website: https://github.com/astorm-z
   logo: logo.png
-  homepage: https://github.com/halo-dev/plugin-starter#readme
-  repo: https://github.com/halo-dev/plugin-starter
-  issues: https://github.com/halo-dev/plugin-starter/issues
-  displayName: "插件快速开始模板"
-  description: "这是一个插件快速开始模板"
+  homepage: https://github.com/astorm-z/halo-plugin-easy-article-pic#readme
+  repo: https://github.com/astorm-z/halo-plugin-easy-article-pic
+  issues: https://github.com/astorm-z/halo-plugin-easy-article-pic/issues
+  displayName: "简易文章配图"
+  description: "结合 Cover View, 快速给文章加上专属配图"
   license:
     - name: "GPL-3.0"
       url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
