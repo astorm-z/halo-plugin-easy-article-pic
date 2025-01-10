@@ -53,4 +53,7 @@ build {
 
 halo {
     version = '2.20'
+    superAdminUsername = 'atmadmin'
+    superAdminPassword = 'atmadmin'
+    port = 8091
 }
